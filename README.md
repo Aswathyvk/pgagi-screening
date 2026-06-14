@@ -24,6 +24,12 @@ An AI-powered role-based candidate screening system that dynamically generates i
 
 ## RAG Pipeline Design
 
+Frontend (Next.js) → FastAPI Backend → SQLite DB
+
+↓
+
+RAG Pipeline → ChromaDB (Vector Store)
+
 ### 1. Knowledge Ingestion
 - PDFs from `knowledge_base/` are loaded using pypdf
 - Text is chunked into 1000-character chunks with 200-character overlap to preserve context
