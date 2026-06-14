@@ -47,3 +47,49 @@ An AI-powered role-based candidate screening system that dynamically generates i
 ---
 
 ## Project Structure
+
+pgagi-screening/
+
+├── backend/
+
+│   ├── main.py
+
+│   ├── routers/
+
+│   │   ├── resume.py
+
+│   │   ├── sessions.py
+
+│   │   └── questions.py
+
+│   ├── rag/
+
+│   │   ├── ingestor.py
+
+│   │   ├── retriever.py
+
+│   │   └── question_generator.py
+
+│   ├── models.py
+
+│   ├── schemas.py
+
+│   └── db.py
+
+├── frontend/
+
+│   ├── app/
+
+│   │   ├── page.tsx
+
+│   │   ├── interview/page.tsx
+
+│   │   └── results/page.tsx
+
+│   └── lib/
+
+│       └── api.ts
+
+└── knowledge_base/
+
+└── ml_hundred_page.pdf
