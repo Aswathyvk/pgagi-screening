@@ -2,11 +2,7 @@
 
 An AI-powered role-based candidate screening system that dynamically generates interview questions using a RAG (Retrieval-Augmented Generation) pipeline based on the candidate's resume and selected job role.
 
----
 
-## Demo Video
-
-[Watch Demo Video](https://your-demo-video-link-here)
 
 ---
 
@@ -177,4 +173,4 @@ Open http://localhost:3000
 ## Submission
 
 - GitHub: https://github.com/Aswathyvk/pgagi-screening
-- Demo Video: [link to be added]
+- Demo Video: https://drive.google.com/file/d/1KUh7MOCf3PThzYBAI5gsYPNehDA-W36g/view?usp=drive_link
